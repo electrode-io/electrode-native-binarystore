@@ -1,0 +1,23 @@
+{
+  "name": "ern-binarystore",
+  "version": "0.0.1",
+  "description": "Electrode Native Binary Store",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "bin": "ern-binarystore",
+  "dependencies": {
+    "hapi": "^16.6.2",
+    "inert": "^4.2.1",
+    "minimist": "^1.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/electrode-io/electrode-native-binarystore/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electrode-io/electrode-native-binarystore.git"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
