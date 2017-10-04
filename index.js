@@ -64,7 +64,7 @@ server.route({
     if (!fs.existsSync(pathToFile)) {
       return reply('file was not found').code(404)
     }
-    reply.file(pathToFile)
+    reply.file(pathToFile, { confine: false })
   }
 })
 
