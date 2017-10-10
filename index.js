@@ -8,8 +8,8 @@ const Hapi = require('hapi')
 const storePath = argv.storePath || path.join(__dirname, 'uploads')
 
 if (!fs.existsSync(storePath)) {
-  console.log(`Creating store directory ${argv.storePath}`)
-  execSync(`mkdir -p ${argv.storePath}`)
+  console.log(`Creating store directory ${storePath}`)
+  execSync(`mkdir -p ${storePath}`)
 }
 
 const server = new Hapi.Server()
