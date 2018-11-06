@@ -1,10 +1,9 @@
 {
   "name": "ern-binarystore",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Electrode Native Binary Store",
   "main": "index.js",
   "license": "Apache-2.0",
-  "bin": "ern-binarystore",
   "dependencies": {
     "hapi": "^16.6.2",
     "inert": "^4.2.1",
