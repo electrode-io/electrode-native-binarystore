@@ -33,7 +33,8 @@ server.route({
       output: 'stream',
       parse: true,
       allow: 'multipart/form-data',
-      maxBytes: 314572800 /* 300 MB */
+      maxBytes: 314572800 /* 300 MB */,
+      timeout: false
     },
     handler: function (request, reply) {
       if (request.payload) {
